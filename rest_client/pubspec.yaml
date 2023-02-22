@@ -1,0 +1,29 @@
+name: rest_client
+description: A rest client module for flutter.
+version: 0.1.4
+
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^4.0.6
+  mime: ^1.0.4
+  http_parser: ^4.0.2
+  freezed_annotation: ^2.2.0
+  curl_logger_dio_interceptor: ^0.0.3
+  pretty_dio_logger: ^1.1.1
+  flutter_dio_http_cache: ^0.3.1
+
+#    git:
+#      url: https://github.com/queendevelopers/dio-http-cache.git
+#      ref: develop
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.3.2
+  build_runner: ^2.3.3
