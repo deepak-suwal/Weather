@@ -6,7 +6,7 @@ import 'package:weather/core/constants/app_keys.dart';
 import 'package:weather/core/injection/injection.dart';
 import 'package:weather/features/home/presentation/bloc/home_bloc.dart';
 import 'package:weather/features/home/presentation/pages/search_delegate.dart';
-import 'package:weather/features/home/presentation/widget/waether_widget.dart';
+import 'package:weather/features/home/presentation/widget/weather_widget.dart';
 
 class HomePage extends StatelessWidget {
   final HomeBloc locationBloc;
